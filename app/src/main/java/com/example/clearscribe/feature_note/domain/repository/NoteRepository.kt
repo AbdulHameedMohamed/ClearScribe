@@ -1,6 +1,6 @@
-package com.example.clearscribe.feature_note.data.repository
+package com.example.clearscribe.feature_note.domain.repository
 
-import com.example.clearscribe.feature_note.data.model.Note
+import com.example.clearscribe.feature_note.domain.model.Note
 import kotlinx.coroutines.flow.Flow
 
 interface NoteRepository {

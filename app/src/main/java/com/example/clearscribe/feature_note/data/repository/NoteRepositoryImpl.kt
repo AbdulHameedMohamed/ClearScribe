@@ -1,7 +1,8 @@
 package com.example.clearscribe.feature_note.data.repository
 
-import com.example.clearscribe.feature_note.data.model.Note
+import com.example.clearscribe.feature_note.domain.model.Note
 import com.example.clearscribe.feature_note.data.data_source.NoteDao
+import com.example.clearscribe.feature_note.domain.repository.NoteRepository
 import kotlinx.coroutines.flow.Flow
 
 class NoteRepositoryImpl(
